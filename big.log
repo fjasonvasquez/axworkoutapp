@@ -1,0 +1,489 @@
+
+Warning: PATH set to RVM ruby but GEM_HOME and/or GEM_PATH not set, see:
+    https://github.com/rvm/rvm/issues/3212
+
+Hint: To fix PATH errors try using 'rvmsudo' instead of 'sudo', see:
+    https://stackoverflow.com/questions/27784961/received-warning-message-path-set-to-rvm-after-updating-ruby-version-using-rvm/28080063#28080063
+
+Warning! PATH is not properly set up, $GEM_HOME is not set.
+         Usually this is caused by shell initialization files. Search for 'PATH=...' entries.
+         You can also re-add RVM to your profile by running: 'rvm get stable --auto-dotfiles'.
+         To fix it temporarily in this shell session run: 'rvm use ruby-2.3.1'.
+         To ignore this error add rvm_silence_path_mismatch_check_flag=1 to your ~/.rvmrc file.
++ 1510308100.N /scripts/cli : __rvm_parse_args()  823 > [[ -z '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  823 > [[ -n '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ error == '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ 0 -eq 1 ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ -n '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  86 > [[ -n install ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  88 > rvm_token=install
++ 1510308100.N /scripts/cli : __rvm_parse_args()  90 > ((  1 > 0  ))
++ 1510308100.N /scripts/cli : __rvm_parse_args()  92 > next_token=2.1.1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  93 > shift
++ 1510308100.N /scripts/cli : __rvm_parse_args()  98 > case "$rvm_token" in
++ 1510308100.N /scripts/cli : __rvm_parse_args()  101 > case "$rvm_token" in
++ 1510308100.N /scripts/cli : __rvm_parse_args()  126 > export install_flag=1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  126 > install_flag=1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  127 > rvm_action=install
++ 1510308100.N /scripts/cli : __rvm_parse_args()  823 > [[ -z install ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ error == \i\n\s\t\a\l\l ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ 0 -eq 1 ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ -n '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  86 > [[ -n 2.1.1 ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  88 > rvm_token=2.1.1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  90 > ((  0 > 0  ))
++ 1510308100.N /scripts/cli : __rvm_parse_args()  95 > next_token=
++ 1510308100.N /scripts/cli : __rvm_parse_args()  98 > case "$rvm_token" in
++ 1510308100.N /scripts/cli : __rvm_parse_args()  101 > case "$rvm_token" in
++ 1510308100.N /scripts/cli : __rvm_parse_args()  355 > rvm_verbose_flag=1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  356 > rvm_action=install
++ 1510308100.N /scripts/cli : __rvm_parse_args()  357 > rvm_ruby_string=2.1.1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  358 > rvm_ruby_strings=2.1.1
++ 1510308100.N /scripts/cli : __rvm_parse_args()  823 > [[ -z install ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ error == \i\n\s\t\a\l\l ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ 0 -eq 1 ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  827 > [[ -n '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  86 > [[ -n '' ]]
++ 1510308100.N /scripts/cli : __rvm_parse_args()  832 > : rvm_ruby_args:0::
++ 1510308100.N /scripts/cli : __rvm_parse_args()  834 > [[ -n '' ]]
++ 1510308100.N /scripts/cli : rvm()  866 > result=0
++ 1510308100.N /scripts/cli : rvm()  867 > : rvm_ruby_args:0::
++ 1510308100.N /scripts/cli : rvm()  869 > ((  1 == 0  ))
++ 1510308100.N /scripts/cli : rvm()  869 > set -o xtrace
++ 1510308100.N /scripts/cli : rvm()  871 > ((  result  ))
++ 1510308100.N /scripts/cli : rvm()  872 > case "${rvm_action:=help}" in
++ 1510308100.N /scripts/cli : rvm()  1045 > export rvm_path
++ 1510308100.N /scripts/cli : rvm()  1046 > __rvm_cli_install_ruby 2.1.1
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  382 > [[ -n 2.1.1 ]]
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  384 > typeset __rubies __installed __missing __search_list
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  385 > typeset -a __search
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  386 > __rvm_custom_separated_array __search , 2.1.1
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  240 > typeset IFS
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  241 > IFS=,
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  242 > [[ -n '' ]]
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  244 > eval '__search+=( $3 )'
+++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  244 > __search+=($3)
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  387 > __rubies=2.1.1
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  388 > __search_list=
++ 1510308100.N /scripts/functions/cli : __rvm_cli_install_ruby()  389 > __rvm_cli_rubies_select
++ 1510308100.N /scripts/functions/cli : __rvm_cli_rubies_select()  401 > typeset __ruby
++ 1510308100.N /scripts/functions/cli : __rvm_cli_rubies_select()  402 > for __ruby in '"${__search[@]}"'
++ 1510308100.N /scripts/functions/cli : __rvm_cli_rubies_select()  404 > rvm_ruby_string=2.1.1
++ 1510308100.N /scripts/functions/cli : __rvm_cli_rubies_select()  405 > __rvm_select
++ 1510308100.N /scripts/functions/selector : __rvm_select()  87 > true
++ 1510308100.N /scripts/functions/selector : __rvm_select()  89 > __rvm_select_set_variable_defaults
++ 1510308100.N /scripts/functions/selector : __rvm_select_set_variable_defaults()  10 > export GEM_HOME GEM_PATH MY_RUBY_HOME RUBY_VERSION IRBRC
++ 1510308100.N /scripts/functions/selector : __rvm_select_set_variable_defaults()  11 > export rvm_env_string rvm_action rvm_alias_expanded rvm_archive_extension rvm_bin_flag rvm_bin_path rvm_debug_flag rvm_default_flag rvm_delete_flag rvm_docs_type rvm_dump_environment_flag rvm_error_message rvm_expanding_aliases rvm_file_name rvm_gemdir_flag rvm_gemset_name rvm_gemstone_package_file rvm_gemstone_url rvm_head_flag rvm_hook rvm_install_on_use_flag rvm_llvm_flag rvm_loaded_flag rvm_niceness rvm_nightly_flag rvm_only_path_flag rvm_parse_break rvm_patch_original_pwd rvm_pretty_print_flag rvm_proxy rvm_quiet_flag rvm_reload_flag rvm_remove_flag rvm_ruby_alias rvm_ruby_args rvm_ruby_binary rvm_ruby_bits rvm_ruby_configure rvm_ruby_file rvm_ruby_gem_home rvm_ruby_gem_path rvm_ruby_global_gems_path rvm_ruby_home rvm_ruby_interpreter rvm_ruby_irbrc rvm_ruby_major_version rvm_ruby_make rvm_ruby_make_install rvm_ruby_minor_version rvm_ruby_mode rvm_ruby_name rvm_ruby_package_file rvm_ruby_package_name rvm_ruby_patch rvm_ruby_patch_level rvm_ruby_release_version rvm_ruby_repo_url rvm_ruby_revision rvm_ruby_selected_flag rvm_ruby_sha rvm_ruby_string rvm_ruby_strings rvm_ruby_tag rvm_ruby_url rvm_ruby_user_tag rvm_ruby_version rvm_script_name rvm_sdk rvm_silent_flag rvm_sticky_flag rvm_system_flag rvm_token rvm_trace_flag rvm_use_flag rvm_user_flag rvm_verbose_flag rvm_wrapper_name
++ 1510308100.N /scripts/functions/selector : __rvm_select()  90 > __rvm_select_detect_ruby_string ''
++ 1510308100.N /scripts/functions/selector : __rvm_select_detect_ruby_string()  16 > rvm_ruby_string=2.1.1
++ 1510308100.N /scripts/functions/selector : __rvm_select_detect_ruby_string()  18 > [[ -z 2.1.1 ]]
++ 1510308100.N /scripts/functions/selector : __rvm_select()  91 > __rvm_ruby_string
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  305 > true 0 0
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  306 > rvm_expanding_aliases=
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  308 > true '' '' '' '' '' '' '' @ 2.1.1 0 0
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  314 > [[ 2.1.1 == *\@* ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  321 > ((  rvm_expanding_aliases == 0  ))
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  322 > [[ -n 2.1.1 ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  322 > [[ 2.1.1 != \s\y\s\t\e\m ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  325 > [[ -f /Users/felinojasonvasquez/.rvm/config/known_aliases ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  325 > [[ -s /Users/felinojasonvasquez/.rvm/config/known_aliases ]]
+++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  326 > __rvm_db_ /Users/felinojasonvasquez/.rvm/config/known_aliases 2.1.1
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  77 > typeset __db __key __value
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  78 > __db=/Users/felinojasonvasquez/.rvm/config/known_aliases
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  79 > __key=2.1.1
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  80 > shift 2
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  81 > __value=
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  82 > case "${__value}" in
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  87 > __rvm_db_get /Users/felinojasonvasquez/.rvm/config/known_aliases 2.1.1
+++ 1510308100.N /scripts/functions/db : __rvm_db_get()  69 > [[ -f /Users/felinojasonvasquez/.rvm/config/known_aliases ]]
+++ 1510308100.N /scripts/functions/db : __rvm_db_get()  70 > __rvm_sed -n -e '\#^2.1.1=# { s#^2.1.1=##;; p; }' -e '/^$/d'
+++ 1510308100.N /scripts/functions/support : __rvm_sed()  277 > sed -n -e '\#^2.1.1=# { s#^2.1.1=##;; p; }' -e '/^$/d'
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  326 > expanded_alias_name=
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  327 > [[ -n '' ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  334 > ((  rvm_expanding_aliases == 0  ))
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  335 > [[ -n 2.1.1 ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  335 > [[ 2.1.1 != \s\y\s\t\e\m ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  338 > [[ -f /Users/felinojasonvasquez/.rvm/config/alias ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  338 > [[ -s /Users/felinojasonvasquez/.rvm/config/alias ]]
+++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  339 > __rvm_db_ /Users/felinojasonvasquez/.rvm/config/alias 2.1.1
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  77 > typeset __db __key __value
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  78 > __db=/Users/felinojasonvasquez/.rvm/config/alias
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  79 > __key=2.1.1
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  80 > shift 2
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  81 > __value=
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  82 > case "${__value}" in
+++ 1510308100.N /scripts/functions/db : __rvm_db_()  87 > __rvm_db_get /Users/felinojasonvasquez/.rvm/config/alias 2.1.1
+++ 1510308100.N /scripts/functions/db : __rvm_db_get()  69 > [[ -f /Users/felinojasonvasquez/.rvm/config/alias ]]
+++ 1510308100.N /scripts/functions/db : __rvm_db_get()  70 > __rvm_sed -n -e '\#^2.1.1=# { s#^2.1.1=##;; p; }' -e '/^$/d'
+++ 1510308100.N /scripts/functions/support : __rvm_sed()  277 > sed -n -e '\#^2.1.1=# { s#^2.1.1=##;; p; }' -e '/^$/d'
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  339 > expanded_alias_name=
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  340 > [[ -n '' ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  344 > [[ 2.1.1 == default ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  350 > [[ 2.1.1 == *\@* ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  357 > [[ -n '' ]]
++ 1510308100.N /scripts/functions/selector : __rvm_ruby_string()  363 > __rvm_ruby_string_parse
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse()  276 > __rvm_ruby_string_parse_
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  49 > typeset ruby_string gemset_name expanded_alias_name repo_url branch_name ruby_name
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  52 > ruby_string=2.1.1
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  53 > gemset_name=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  54 > repo_url=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  55 > branch_name=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  56 > ruby_name=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  58 > __rvm_unset_ruby_variables
++ 1510308100.N /scripts/functions/env : __rvm_unset_ruby_variables()  16 > unset rvm_env_string rvm_ruby_string rvm_ruby_strings rvm_ruby_binary rvm_ruby_gem_home rvm_ruby_gem_path rvm_ruby_home rvm_ruby_interpreter rvm_ruby_irbrc rvm_ruby_log_path rvm_ruby_major_version rvm_ruby_minor_version rvm_ruby_package_name rvm_ruby_patch_level rvm_ruby_release_version rvm_ruby_repo_url rvm_ruby_repo_branch rvm_ruby_revision rvm_ruby_selected_flag rvm_ruby_tag rvm_ruby_version rvm_head_flag rvm_ruby_package_file rvm_ruby_configure rvm_ruby_name rvm_ruby_url rvm_ruby_global_gems_path rvm_ruby_args rvm_ruby_name rvm_llvm_flag
++ 1510308100.N /scripts/functions/env : __rvm_unset_ruby_variables()  17 > __rvm_load_rvmrc
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  5 > typeset _file
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  6 > typeset -a rvm_rvmrc_files
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  7 > ((  0 == 1  ))
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  12 > [[ -n 0022 ]]
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  14 > rvm_rvmrc_files=("/etc/rvmrc" "$HOME/.rvmrc")
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  15 > [[ -n /Users/felinojasonvasquez ]]
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  15 > [[ /Users/felinojasonvasquez/.rvmrc -ef /Users/felinojasonvasquez/.rvmrc ]]
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  18 > for _file in '"${rvm_rvmrc_files[@]}"'
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  20 > [[ -s /etc/rvmrc ]]
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  18 > for _file in '"${rvm_rvmrc_files[@]}"'
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  20 > [[ -s /Users/felinojasonvasquez/.rvmrc ]]
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  22 > __rvm_grep '^\s*rvm .*$' /Users/felinojasonvasquez/.rvmrc
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  31 > source /Users/felinojasonvasquez/.rvmrc
+++ 1510308100.N rc : source()  1 > rvm_auto_reload_flag=1
+++ 1510308100.N rc : source()  2 > rvm_auto_reload_flag=2
+++ 1510308100.N rc : source()  3 > rvm_autoupdate_flag=2
++ 1510308100.N /scripts/functions/init : __rvm_load_rvmrc()  35 > return 0
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  60 > rvm_ruby_repo_url=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  61 > rvm_ruby_repo_branch=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  62 > rvm_ruby_name=
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  63 > export rvm_head_flag=0
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  63 > rvm_head_flag=0
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  66 > [[ -z 2.1.1 ]]
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  66 > [[ 2.1.1 == \c\u\r\r\e\n\t ]]
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  79 > strings=()
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  80 > __rvm_custom_separated_array strings - 2.1.1
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  240 > typeset IFS
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  241 > IFS=-
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  242 > [[ -n '' ]]
++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  244 > eval 'strings+=( $3 )'
+++ 1510308100.N /scripts/functions/utility : __rvm_custom_separated_array()  244 > strings+=($3)
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  81 > rvm_ruby_string=2.1.1
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  84 > [[ -n '' ]]
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  88 > for string in '${strings[@]}'
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  90 > case "$string" in
++ 1510308100.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  146 > rvm_ruby_version=2.1.1
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  147 > rvm_ruby_revision=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  148 > rvm_ruby_tag=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  228 > [[ -z '' ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  228 > [[ -n 2.1.1 ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  230 > case "${rvm_ruby_version}" in
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  232 > rvm_ruby_interpreter=ruby
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  234 > [[ -n ruby ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  235 > rvm_ruby_string=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  238 > true
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse()  279 > ((  0 == 1  ))
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse()  294 > __rvm_ruby_string_parse_
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  49 > typeset ruby_string gemset_name expanded_alias_name repo_url branch_name ruby_name
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  52 > ruby_string=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  53 > gemset_name=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  54 > repo_url=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  55 > branch_name=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  56 > ruby_name=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  58 > __rvm_unset_ruby_variables
++ 1510308101.N /scripts/functions/env : __rvm_unset_ruby_variables()  16 > unset rvm_env_string rvm_ruby_string rvm_ruby_strings rvm_ruby_binary rvm_ruby_gem_home rvm_ruby_gem_path rvm_ruby_home rvm_ruby_interpreter rvm_ruby_irbrc rvm_ruby_log_path rvm_ruby_major_version rvm_ruby_minor_version rvm_ruby_package_name rvm_ruby_patch_level rvm_ruby_release_version rvm_ruby_repo_url rvm_ruby_repo_branch rvm_ruby_revision rvm_ruby_selected_flag rvm_ruby_tag rvm_ruby_version rvm_head_flag rvm_ruby_package_file rvm_ruby_configure rvm_ruby_name rvm_ruby_url rvm_ruby_global_gems_path rvm_ruby_args rvm_ruby_name rvm_llvm_flag
++ 1510308101.N /scripts/functions/env : __rvm_unset_ruby_variables()  17 > __rvm_load_rvmrc
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  5 > typeset _file
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  6 > typeset -a rvm_rvmrc_files
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  7 > ((  0 == 1  ))
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  12 > [[ -n 0022 ]]
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  14 > rvm_rvmrc_files=("/etc/rvmrc" "$HOME/.rvmrc")
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  15 > [[ -n /Users/felinojasonvasquez ]]
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  15 > [[ /Users/felinojasonvasquez/.rvmrc -ef /Users/felinojasonvasquez/.rvmrc ]]
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  18 > for _file in '"${rvm_rvmrc_files[@]}"'
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  20 > [[ -s /etc/rvmrc ]]
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  18 > for _file in '"${rvm_rvmrc_files[@]}"'
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  20 > [[ -s /Users/felinojasonvasquez/.rvmrc ]]
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  22 > __rvm_grep '^\s*rvm .*$' /Users/felinojasonvasquez/.rvmrc
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  31 > source /Users/felinojasonvasquez/.rvmrc
+++ 1510308101.N rc : source()  1 > rvm_auto_reload_flag=1
+++ 1510308101.N rc : source()  2 > rvm_auto_reload_flag=2
+++ 1510308101.N rc : source()  3 > rvm_autoupdate_flag=2
++ 1510308101.N /scripts/functions/init : __rvm_load_rvmrc()  35 > return 0
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  60 > rvm_ruby_repo_url=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  61 > rvm_ruby_repo_branch=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  62 > rvm_ruby_name=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  63 > export rvm_head_flag=0
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  63 > rvm_head_flag=0
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  66 > [[ -z ruby-2.1.1 ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  66 > [[ ruby-2.1.1 == \c\u\r\r\e\n\t ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  79 > strings=()
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  80 > __rvm_custom_separated_array strings - ruby-2.1.1
++ 1510308101.N /scripts/functions/utility : __rvm_custom_separated_array()  240 > typeset IFS
++ 1510308101.N /scripts/functions/utility : __rvm_custom_separated_array()  241 > IFS=-
++ 1510308101.N /scripts/functions/utility : __rvm_custom_separated_array()  242 > [[ -n '' ]]
++ 1510308101.N /scripts/functions/utility : __rvm_custom_separated_array()  244 > eval 'strings+=( $3 )'
+++ 1510308101.N /scripts/functions/utility : __rvm_custom_separated_array()  244 > strings+=($3)
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  81 > rvm_ruby_string=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  84 > [[ -n '' ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  88 > for string in '${strings[@]}'
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  90 > case "$string" in
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  214 > rvm_ruby_interpreter=ruby
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  88 > for string in '${strings[@]}'
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  90 > case "$string" in
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  146 > rvm_ruby_version=2.1.1
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  147 > rvm_ruby_revision=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  148 > rvm_ruby_tag=
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  228 > [[ -z ruby ]]
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse_()  238 > true
++ 1510308101.N /scripts/functions/selector_parse : __rvm_ruby_string_parse()  297 > [[ -z ruby ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string()  364 > __rvm_ruby_string_find
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_find()  376 > __rvm_ruby_string_installed
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_installed()  276 > typeset __ruby_inst_dir=/Users/felinojasonvasquez/.rvm/rubies/ruby-2.1.1
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_installed()  277 > [[ -n '' ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_installed()  282 > [[ -n ruby ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_installed()  282 > [[ -n ruby-2.1.1 ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_installed()  282 > [[ -d /Users/felinojasonvasquez/.rvm/rubies/ruby-2.1.1 ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_installed()  285 > [[ -z '' ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_find()  378 > true
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string_find()  393 > [[ -n '' ]]
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string()  367 > detected_rvm_ruby_name=
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string()  369 > rvm_ruby_name=
++ 1510308101.N /scripts/functions/selector : __rvm_ruby_string()  370 > true
++ 1510308101.N /scripts/functions/selector : __rvm_select()  92 > __rvm_select_after_parse
++ 1510308101.N /scripts/functions/selector : __rvm_select_after_parse()  98 > __rvm_select_interpreter_variables
++ 1510308101.N /scripts/functions/selector : __rvm_select_interpreter_variables()  32 > rvm_archive_extension=tar.gz
++ 1510308101.N /scripts/functions/selector : __rvm_select_interpreter_variables()  34 > [[ -z ruby ]]
++ 1510308101.N /scripts/functions/selector : __rvm_select_interpreter_variables()  38 > rvm_ruby_interpreter=ruby
++ 1510308101.N /scripts/functions/selector : __rvm_select_interpreter_variables()  41 > is_a_function __rvm_select_interpreter_ruby
++ 1510308101.N /scripts/functions/support : is_a_function()  5 > typeset -f __rvm_select_interpreter_ruby
++ 1510308101.N /scripts/functions/selector : __rvm_select_interpreter_variables()  43 > __rvm_select_interpreter_ruby
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  371 > [[ '' == \p\0 ]]
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  378 > rvm_ruby_package_name=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  379 > rvm_ruby_package_file=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  381 > [[ -z 2.1.1 ]]
+++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  386 > __rvm_db ruby_repo_url
+++ 1510308101.N /scripts/functions/db : __rvm_db()  27 > typeset value key variable
+++ 1510308101.N /scripts/functions/db : __rvm_db()  28 > key=ruby_repo_url
+++ 1510308101.N /scripts/functions/db : __rvm_db()  29 > variable=
+++ 1510308101.N /scripts/functions/db : __rvm_db()  30 > value=
+++ 1510308101.N /scripts/functions/db : __rvm_db()  32 > [[ -f /Users/felinojasonvasquez/.rvm/user/db ]]
++++ 1510308101.N /scripts/functions/db : __rvm_db()  33 > __rvm_db_ /Users/felinojasonvasquez/.rvm/user/db ruby_repo_url
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  77 > typeset __db __key __value
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  78 > __db=/Users/felinojasonvasquez/.rvm/user/db
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  79 > __key=ruby_repo_url
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  80 > shift 2
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  81 > __value=
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  82 > case "${__value}" in
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  87 > __rvm_db_get /Users/felinojasonvasquez/.rvm/user/db ruby_repo_url
++++ 1510308101.N /scripts/functions/db : __rvm_db_get()  69 > [[ -f /Users/felinojasonvasquez/.rvm/user/db ]]
++++ 1510308101.N /scripts/functions/db : __rvm_db_get()  70 > __rvm_sed -n -e '\#^ruby_repo_url=# { s#^ruby_repo_url=##;; p; }' -e '/^$/d'
++++ 1510308101.N /scripts/functions/support : __rvm_sed()  277 > sed -n -e '\#^ruby_repo_url=# { s#^ruby_repo_url=##;; p; }' -e '/^$/d'
+++ 1510308101.N /scripts/functions/db : __rvm_db()  33 > value=
+++ 1510308101.N /scripts/functions/db : __rvm_db()  35 > [[ -z '' ]]
+++ 1510308101.N /scripts/functions/db : __rvm_db()  35 > [[ -f /Users/felinojasonvasquez/.rvm/config/db ]]
++++ 1510308101.N /scripts/functions/db : __rvm_db()  36 > __rvm_db_ /Users/felinojasonvasquez/.rvm/config/db ruby_repo_url
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  77 > typeset __db __key __value
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  78 > __db=/Users/felinojasonvasquez/.rvm/config/db
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  79 > __key=ruby_repo_url
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  80 > shift 2
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  81 > __value=
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  82 > case "${__value}" in
++++ 1510308101.N /scripts/functions/db : __rvm_db_()  87 > __rvm_db_get /Users/felinojasonvasquez/.rvm/config/db ruby_repo_url
++++ 1510308101.N /scripts/functions/db : __rvm_db_get()  69 > [[ -f /Users/felinojasonvasquez/.rvm/config/db ]]
++++ 1510308101.N /scripts/functions/db : __rvm_db_get()  70 > __rvm_sed -n -e '\#^ruby_repo_url=# { s#^ruby_repo_url=##;; p; }' -e '/^$/d'
++++ 1510308101.N /scripts/functions/support : __rvm_sed()  277 > sed -n -e '\#^ruby_repo_url=# { s#^ruby_repo_url=##;; p; }' -e '/^$/d'
+++ 1510308101.N /scripts/functions/db : __rvm_db()  36 > value=https://github.com/ruby/ruby.git
+++ 1510308101.N /scripts/functions/db : __rvm_db()  38 > [[ -n https://github.com/ruby/ruby.git ]]
+++ 1510308101.N /scripts/functions/db : __rvm_db()  39 > [[ -n '' ]]
+++ 1510308101.N /scripts/functions/db : __rvm_db()  41 > echo https://github.com/ruby/ruby.git
+++ 1510308101.N /scripts/functions/db : __rvm_db()  43 > true
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  386 > rvm_ruby_repo_url=https://github.com/ruby/ruby.git
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  388 > ((  0 == 0  ))
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  390 > __rvm_version_compare 2.1.1 -lt 1.8.5
++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  193 > typeset first
+++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  194 > __rvm_version_sort
+++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  194 > command printf %b '2.1.1\n1.8.5\n'
+++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  194 > command head -n1
+++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  194 > printf %b '2.1.1\n1.8.5\n'
+++ 1510308101.N /scripts/functions/utility : __rvm_version_sort()  177 > command awk '-F[.-]' -v OFS=. '{       # split on "." and "-", merge back with "."
+    original=$0                            # save original to preserve it before the line is changed
+    for (n=1; n<10; n++) {                 # iterate through max 9 components of version
+      $n=tolower($n)                       # ignore case for sorting
+      if ($n=="")         $n="0"           # treat non existing parts as 0
+      if ($n ~ /^p[0-9]/) $n=substr($n, 2) # old ruby -p notation
+      if ($n ~ /^[a-z]/)  $n=" "$n         # names go before numbers thanks to space
+    }
+    print $0"\t"original                   # print the transformed version and original separated by \t so we can extract original after sorting
+  }'
+++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  194 > head -n1
+++ 1510308101.N /scripts/functions/utility : __rvm_version_sort()  188 > awk '-F\t' '{print $2}'
+++ 1510308101.N /scripts/functions/utility : __rvm_version_sort()  187 > LC_ALL=C
+++ 1510308101.N /scripts/functions/utility : __rvm_version_sort()  177 > awk '-F[.-]' -v OFS=. '{       # split on "." and "-", merge back with "."
+    original=$0                            # save original to preserve it before the line is changed
+    for (n=1; n<10; n++) {                 # iterate through max 9 components of version
+      $n=tolower($n)                       # ignore case for sorting
+      if ($n=="")         $n="0"           # treat non existing parts as 0
+      if ($n ~ /^p[0-9]/) $n=substr($n, 2) # old ruby -p notation
+      if ($n ~ /^[a-z]/)  $n=" "$n         # names go before numbers thanks to space
+    }
+    print $0"\t"original                   # print the transformed version and original separated by \t so we can extract original after sorting
+  }'
+++ 1510308101.N /scripts/functions/utility : __rvm_version_sort()  187 > sort -t. -k 1,1d -k 2,2n -k 3,3n -k 4,4n -k 5,5n -k 6,6n -k 7,7n -k 8,8n -k 9,9n
++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  194 > first=1.8.5
++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  196 > case "$2" in
++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  216 > [[ 1.8.5 == \h\e\a\d ]]
++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  218 > [[ 1.8.5 == \2\.\1\.\1 ]]
++ 1510308101.N /scripts/functions/utility : __rvm_version_compare()  218 > return 1
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  392 > rvm_archive_extension=tar.bz2
++ 1510308101.N /scripts/functions/selector_interpreters : __rvm_select_interpreter_ruby()  398 > true
++ 1510308101.N /scripts/functions/selector : __rvm_select_after_parse()  99 > __rvm_select_version_variables
++ 1510308101.N /scripts/functions/selector : __rvm_select_version_variables()  58 > case "$rvm_ruby_version" in
++ 1510308101.N /scripts/functions/selector : __rvm_select_version_variables()  60 > rvm_ruby_release_version=2
++ 1510308101.N /scripts/functions/selector : __rvm_select_version_variables()  61 > rvm_ruby_major_version=2.1
++ 1510308101.N /scripts/functions/selector : __rvm_select_version_variables()  62 > rvm_ruby_major_version=1
++ 1510308101.N /scripts/functions/selector : __rvm_select_version_variables()  63 > rvm_ruby_minor_version=1
++ 1510308101.N /scripts/functions/selector : __rvm_select_after_parse()  100 > __rvm_select_default_variables
++ 1510308101.N /scripts/functions/selector : __rvm_select_default_variables()  75 > [[ ruby != ext ]]
++ 1510308101.N /scripts/functions/selector : __rvm_select_default_variables()  76 > rvm_ruby_package_name=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector : __rvm_select_default_variables()  79 > rvm_ruby_home=/Users/felinojasonvasquez/.rvm/rubies/ruby-2.1.1
++ 1510308101.N /scripts/functions/selector : __rvm_select_default_variables()  80 > rvm_ruby_binary=/Users/felinojasonvasquez/.rvm/rubies/ruby-2.1.1/bin/ruby
++ 1510308101.N /scripts/functions/selector : __rvm_select_default_variables()  81 > rvm_ruby_irbrc=/Users/felinojasonvasquez/.rvm/rubies/ruby-2.1.1/.irbrc
++ 1510308101.N /scripts/functions/selector : __rvm_select_after_parse()  103 > [[ system == \r\u\b\y ]]
++ 1510308101.N /scripts/functions/selector : __rvm_select_after_parse()  103 > __rvm_gemset_select
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select()  140 > __rvm_gemset_select_only
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  54 > rvm_ruby_gem_home=/Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  56 > : rvm_ignore_gemsets_flag:0:
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  57 > ((  rvm_ignore_gemsets_flag  ))
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  63 > rvm_ruby_global_gems_path=/Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1@global
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  65 > __rvm_gemset_handle_default
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_handle_default()  5 > rvm_gemset_name=@@
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_handle_default()  6 > rvm_gemset_name=@@
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_handle_default()  8 > rvm_gemset_name=
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  66 > [[ -z '' ]]
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  69 > [[ '' == \g\l\o\b\a\l ]]
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  73 > rvm_ruby_gem_path=/Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1:/Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1@global
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  77 > [[ -n '' ]]
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  81 > rvm_env_string=ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_only()  83 > true
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select()  141 > __rvm_gemset_select_validation
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  90 > [[ ! -d /Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1 ]]
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  101 > ((  0 == 1  ))
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  106 > case "${rvm_gemset_name}" in
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  117 > typeset rvm_ruby_gem_home_254
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  118 > [[ -n '' ]]
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  120 > rvm_ruby_gem_home_254=/Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1
++ 1510308101.N /scripts/functions/selector_gemsets : __rvm_gemset_select_validation()  123 > [[ /Users/felinojasonvasquez/.rvm/gems/ruby-2.1.1 != \/\U\s\e\r\s\/\f\e\l\i\n\o\j\a\s\o\n\v\a\s\q\u\e\z\/\.\r\v\m\/\g\e\m\s\/\r\u\b\y\-\2\.\1\.\1 ]]
++ 1510308101.N /scripts/functions/selector : __rvm_select_after_parse()  106 > rvm_ruby_selected_flag=1
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_select()  406 > [[ -n ruby-2.1.1 ]]
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_select()  407 > __search_list+='^ruby-2.1.1$|'
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_select()  413 > __search_list='^ruby-2.1.1$'
++ 1510308101.N /scripts/functions/cli : __rvm_cli_install_ruby()  390 > __rvm_cli_rubies_not_installed
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  419 > ((  0 == 0  ))
+++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  423 > __rvm_grep -E '^ruby-2.1.1$'
+++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  423 > __rvm_list_strings
+++ 1510308101.N /scripts/functions/support : __rvm_grep()  260 > GREP_OPTIONS=
+++ 1510308101.N /scripts/functions/list : __rvm_list_strings()  7 > __rvm_find /Users/felinojasonvasquez/.rvm/rubies -mindepth 1 -maxdepth 1 -type d
+++ 1510308101.N /scripts/functions/list : __rvm_list_strings()  7 > __rvm_awk -F/ '{print $NF}'
+++ 1510308101.N /scripts/functions/support : __rvm_find()  277 > find /Users/felinojasonvasquez/.rvm/rubies -mindepth 1 -maxdepth 1 -type d
+++ 1510308101.N /scripts/functions/support : __rvm_grep()  260 > command grep -E '^ruby-2.1.1$'
+++ 1510308101.N /scripts/functions/support : __rvm_awk()  277 > awk -F/ '{print $NF}'
+++ 1510308101.N /scripts/functions/support : __rvm_grep()  260 > grep -E '^ruby-2.1.1$'
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  422 > __installed=ruby-2.1.1
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  423 > [[ -n ruby-2.1.1 ]]
++ 1510308101.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  429 > rvm_warn 'Already installed ruby-2.1.1.
+To reinstall use:
+
+    rvm reinstall ruby-2.1.1
+'
++ 1510308101.N /scripts/functions/logging : rvm_warn()  142 > rvm_pretty_print stdout
++ 1510308101.N /scripts/functions/logging : rvm_pretty_print()  73 > case "${rvm_pretty_print_flag:=auto}" in
++ 1510308101.N /scripts/functions/logging : rvm_pretty_print()  78 > case "${TERM:-dumb}" in
++ 1510308101.N /scripts/functions/logging : rvm_pretty_print()  81 > case "$1" in
++ 1510308101.N /scripts/functions/logging : rvm_pretty_print()  82 > [[ -t 1 ]]
++ 1510308102.N /scripts/functions/logging : rvm_pretty_print()  82 > return 1
++ 1510308102.N /scripts/functions/logging : rvm_warn()  144 > rvm_printf_to_stderr %b 'Already installed ruby-2.1.1.
+To reinstall use:
+
+    rvm reinstall ruby-2.1.1
+\n'
++ 1510308102.N /scripts/functions/logging : rvm_printf_to_stderr()  116 > printf %b 'Already installed ruby-2.1.1.
+To reinstall use:
+
+    rvm reinstall ruby-2.1.1
+\n'
+Already installed ruby-2.1.1.
+To reinstall use:
+
+    rvm reinstall ruby-2.1.1
+
++ 1510308102.N /scripts/functions/cli : __rvm_cli_rubies_not_installed()  430 > return 2
++ 1510308102.N /scripts/cli : rvm()  1084 > current_result=0
++ 1510308102.N /scripts/cli : rvm()  1085 > ((  result  ))
++ 1510308102.N /scripts/cli : rvm()  1085 > result=0
++ 1510308102.N /scripts/cli : rvm()  1087 > ((  result  ))
++ 1510308102.N /scripts/cli : rvm()  1088 > case "$rvm_action" in
++ 1510308102.N /scripts/cli : rvm()  1091 > [[ -n 2.1.1 ]]
++ 1510308102.N /scripts/cli : rvm()  1092 > rvm_is_a_shell_function no_warning
++ 1510308102.N /scripts/functions/utility : rvm_is_a_shell_function()  108 > typeset _message
++ 1510308102.N /scripts/functions/utility : rvm_is_a_shell_function()  110 > ((  1  ))
++ 1510308102.N /scripts/functions/utility : rvm_is_a_shell_function()  111 > [[ no_warning != \n\o\_\w\a\r\n\i\n\g ]]
++ 1510308102.N /scripts/functions/utility : rvm_is_a_shell_function()  135 > return 1
++ 1510308102.N /scripts/cli : rvm()  1101 > current_result=0
++ 1510308102.N /scripts/cli : rvm()  1102 > ((  result  ))
++ 1510308102.N /scripts/cli : rvm()  1102 > result=0
++ 1510308102.N /scripts/cli : rvm()  1104 > typeset __local_rvm_trace_flag
++ 1510308102.N /scripts/cli : rvm()  1105 > __local_rvm_trace_flag=1
++ 1510308102.N /scripts/cli : rvm()  1107 > __rvm_cli_autoreload
++ 1510308102.N /scripts/functions/cli : __rvm_cli_autoreload()  363 > [[ 0 -eq 1 ]]
++ 1510308102.N /scripts/functions/cli : __rvm_cli_autoreload()  375 > __rvm_teardown
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  238 > builtin command -v __rvm_cleanup_tmp
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  239 > __rvm_cleanup_tmp
++ 1510308102.N /scripts/functions/cleanup : __rvm_cleanup_tmp()  70 > [[ -d /Users/felinojasonvasquez/.rvm/tmp/ ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_cleanup_tmp()  72 > case "${rvm_tmp_path%\/}" in
++ 1510308102.N /scripts/functions/cleanup : __rvm_cleanup_tmp()  74 > __rvm_rm_rf '/Users/felinojasonvasquez/.rvm/tmp/25533*'
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf()  6 > __rvm_rm_rf_verbose '/Users/felinojasonvasquez/.rvm/tmp/25533*'
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  13 > typeset target
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  14 > target='/Users/felinojasonvasquez/.rvm/tmp/25533*'
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  18 > [[ -n '' ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  22 > [[ -n 3.2.57(1)-release ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  24 > builtin shopt -s extglob
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  28 > case "${target}" in
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  35 > [[ -z /Users/felinojasonvasquez/.rvm/tmp/25533* ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  40 > [[ -d /Users/felinojasonvasquez/.rvm/tmp/25533* ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  49 > [[ -f /Users/felinojasonvasquez/.rvm/tmp/25533* ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  49 > [[ -L /Users/felinojasonvasquez/.rvm/tmp/25533* ]]
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  58 > rvm_debug '__rvm_rm_rf already gone: /Users/felinojasonvasquez/.rvm/tmp/25533*'
++ 1510308102.N /scripts/functions/logging : rvm_debug()  149 > ((  0  ))
++ 1510308102.N /scripts/functions/logging : rvm_debug()  149 > return 0
++ 1510308102.N /scripts/functions/cleanup : __rvm_rm_rf_verbose()  62 > true
++ 1510308102.N /scripts/functions/cleanup : __rvm_cleanup_tmp()  78 > true
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  242 > export __rvm_env_loaded
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  244 > : __rvm_env_loaded:1:
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  246 > : __rvm_env_loaded:1:
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  248 > : __rvm_env_loaded:0:
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  251 > [[ -z /Users/felinojasonvasquez/.rvm/tmp ]]
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  251 > ((  __rvm_env_loaded > 0  ))
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  256 > [[ -n 3.2.57(1)-release ]]
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  258 > trap - EXIT HUP INT QUIT TERM
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  260 > is_a_function shell_session_update
++ 1510308102.N /scripts/functions/support : is_a_function()  5 > typeset -f shell_session_update
++ 1510308102.N /scripts/functions/support : is_a_function()  5 > return 1
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  265 > ((  rvm_bash_nounset == 1  ))
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  266 > unset rvm_bash_nounset
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  270 > [[ -n '' ]]
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  281 > [[ -n 0022 ]]
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  283 > umask 0022
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  284 > unset rvm_stored_umask
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  287 > builtin command -v __rvm_cleanup_download
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  291 > [[ '' == \1 ]]
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  295 > __variables_definition unset
++ 1510308102.N /scripts/functions/environment : __variables_definition()  133 > typeset -a __variables_list __array_list
++ 1510308102.N /scripts/functions/environment : __variables_definition()  134 > typeset __method
++ 1510308102.N /scripts/functions/environment : __variables_definition()  136 > __method=unset
++ 1510308102.N /scripts/functions/environment : __variables_definition()  170 > __variables_list=(rvm_head_flag rvm_ruby_selected_flag rvm_user_install_flag rvm_path_flag rvm_cron_flag rvm_static_flag rvm_default_flag rvm_loaded_flag rvm_llvm_flag rvm_skip_autoreconf_flag rvm_dynamic_extensions_flag rvm_18_flag rvm_19_flag rvm_20_flag rvm_21_flag rvm_force_autoconf_flag rvm_dump_environment_flag rvm_curl_flags rvm_rubygems_version rvm_verbose_flag rvm_debug_flag rvm_trace_flag __array_start rvm_skip_pristine_flag rvm_create_flag rvm_remove_flag rvm_movable_flag rvm_archive_flag rvm_gemdir_flag rvm_reload_flag rvm_auto_reload_flag rvm_disable_binary_flag rvm_ignore_gemsets_flag rvm_skip_gemsets_flag rvm_install_on_use_flag rvm_remote_flag rvm_verify_downloads_flag rvm_skip_openssl_flag rvm_gems_cache_path rvm_gems_path rvm_man_path rvm_ruby_gem_path rvm_ruby_log_path rvm_gems_cache_path rvm_archives_path rvm_docs_path rvm_environments_path rvm_examples_path rvm_gems_path rvm_gemsets_path rvm_help_path rvm_hooks_path rvm_lib_path rvm_log_path rvm_patches_path rvm_repos_path rvm_rubies_path rvm_scripts_path rvm_src_path rvm_tmp_path rvm_user_path rvm_usr_path rvm_wrappers_path rvm_stored_errexit rvm_ruby_strings rvm_ruby_binary rvm_ruby_gem_home rvm_ruby_home rvm_ruby_interpreter rvm_ruby_irbrc rvm_ruby_major_version rvm_ruby_minor_version rvm_ruby_package_name rvm_ruby_patch_level rvm_ruby_release_version rvm_ruby_repo_url rvm_ruby_repo_branch rvm_ruby_revision rvm_ruby_tag rvm_ruby_sha rvm_ruby_version rvm_ruby_package_file rvm_ruby_name rvm_ruby_name rvm_ruby_args rvm_ruby_user_tag rvm_ruby_patch detected_rvm_ruby_name __rvm_env_loaded next_token rvm_error_message rvm_gemset_name rvm_parse_break rvm_token rvm_action rvm_export_args rvm_gemset_separator rvm_expanding_aliases rvm_tar_command rvm_tar_options rvm_patch_original_pwd rvm_project_rvmrc rvm_archive_extension rvm_autoinstall_bundler_flag rvm_codesign_identity rvm_expected_gemset_name rvm_without_gems rvm_with_gems rvm_with_default_gems rvm_ignore_dotfiles_flag rvm_fuzzy_flag rvm_autolibs_flag rvm_autolibs_flag_number rvm_autolibs_flag_runner rvm_quiet_curl_flag rvm_max_time_flag rvm_error_clr rvm_warn_clr rvm_debug_clr rvm_notify_clr rvm_reset_clr rvm_error_color rvm_warn_color rvm_debug_color rvm_notify_color rvm_reset_color rvm_log_timestamp rvm_log_filesystem rvm_log_namelen rvm_show_log_lines_on_error)
++ 1510308102.N /scripts/functions/environment : __variables_definition()  174 > __array_list=(rvm_patch_names rvm_ree_options rvm_autoconf_flags rvm_architectures)
++ 1510308102.N /scripts/functions/environment : __variables_definition()  176 > case "${__method}" in
++ 1510308102.N /scripts/functions/environment : __variables_definition()  178 > unset rvm_patch_names rvm_ree_options rvm_autoconf_flags rvm_architectures
++ 1510308102.N /scripts/functions/environment : __variables_definition()  185 > unset rvm_head_flag rvm_ruby_selected_flag rvm_user_install_flag rvm_path_flag rvm_cron_flag rvm_static_flag rvm_default_flag rvm_loaded_flag rvm_llvm_flag rvm_skip_autoreconf_flag rvm_dynamic_extensions_flag rvm_18_flag rvm_19_flag rvm_20_flag rvm_21_flag rvm_force_autoconf_flag rvm_dump_environment_flag rvm_curl_flags rvm_rubygems_version rvm_verbose_flag rvm_debug_flag rvm_trace_flag __array_start rvm_skip_pristine_flag rvm_create_flag rvm_remove_flag rvm_movable_flag rvm_archive_flag rvm_gemdir_flag rvm_reload_flag rvm_auto_reload_flag rvm_disable_binary_flag rvm_ignore_gemsets_flag rvm_skip_gemsets_flag rvm_install_on_use_flag rvm_remote_flag rvm_verify_downloads_flag rvm_skip_openssl_flag rvm_gems_cache_path rvm_gems_path rvm_man_path rvm_ruby_gem_path rvm_ruby_log_path rvm_gems_cache_path rvm_archives_path rvm_docs_path rvm_environments_path rvm_examples_path rvm_gems_path rvm_gemsets_path rvm_help_path rvm_hooks_path rvm_lib_path rvm_log_path rvm_patches_path rvm_repos_path rvm_rubies_path rvm_scripts_path rvm_src_path rvm_tmp_path rvm_user_path rvm_usr_path rvm_wrappers_path rvm_stored_errexit rvm_ruby_strings rvm_ruby_binary rvm_ruby_gem_home rvm_ruby_home rvm_ruby_interpreter rvm_ruby_irbrc rvm_ruby_major_version rvm_ruby_minor_version rvm_ruby_package_name rvm_ruby_patch_level rvm_ruby_release_version rvm_ruby_repo_url rvm_ruby_repo_branch rvm_ruby_revision rvm_ruby_tag rvm_ruby_sha rvm_ruby_version rvm_ruby_package_file rvm_ruby_name rvm_ruby_name rvm_ruby_args rvm_ruby_user_tag rvm_ruby_patch detected_rvm_ruby_name __rvm_env_loaded next_token rvm_error_message rvm_gemset_name rvm_parse_break rvm_token rvm_action rvm_export_args rvm_gemset_separator rvm_expanding_aliases rvm_tar_command rvm_tar_options rvm_patch_original_pwd rvm_project_rvmrc rvm_archive_extension rvm_autoinstall_bundler_flag rvm_codesign_identity rvm_expected_gemset_name rvm_without_gems rvm_with_gems rvm_with_default_gems rvm_ignore_dotfiles_flag rvm_fuzzy_flag rvm_autolibs_flag rvm_autolibs_flag_number rvm_autolibs_flag_runner rvm_quiet_curl_flag rvm_max_time_flag rvm_error_clr rvm_warn_clr rvm_debug_clr rvm_notify_clr rvm_reset_clr rvm_error_color rvm_warn_color rvm_debug_color rvm_notify_color rvm_reset_color rvm_log_timestamp rvm_log_filesystem rvm_log_namelen rvm_show_log_lines_on_error
++ 1510308102.N /scripts/functions/environment : __variables_definition()  188 > [[ -n 3.2.57(1)-release ]]
++ 1510308102.N /scripts/functions/environment : __variables_definition()  189 > export -fn __rvm_select_version_variables __rvm_ruby_string_parse_ __rvm_rm_rf_verbose __rvm_parse_args
++ 1510308102.N /scripts/functions/environment : __rvm_teardown()  297 > return 0
++ 1510308102.N /scripts/cli : rvm()  1109 > ((  __local_rvm_trace_flag > 0  ))
++ 1510308102.N /scripts/cli : rvm()  1111 > set +o verbose
++ 1510308102.N /scripts/cli : rvm()  1112 > set +o xtrace
