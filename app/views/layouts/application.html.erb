@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	  <title>AXworkoutApp</title>
-	  <%= csrf_meta_tags %>
+  <head>
+    <title>Workspace</title>
+    <%= csrf_meta_tags %>
 
-	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>	  
-	</head>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
 
-	<body>
-		<% render 'shared/header' %>
-
-		<%= render 'shared/main' %>
-	</body>
+  <body>
+    <%= render 'shared/header' %>
+    
+    <%= render 'shared/main' %>
+    
+    <%= render 'shared/footer' %>
+    
+  </body>
 </html>
