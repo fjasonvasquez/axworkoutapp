@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~>3.3.6'
 gem 'devise', '~>4.2.0'
 gem 'railties', '5.0.0.1'
+gem 'rack', '~> 2.0', '>= 2.0.3'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
