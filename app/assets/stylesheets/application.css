@@ -11,5 +11,9 @@
  * file per style scope.
  *
  *= require_tree .
- *= require_self
- */
+ *= require jquery-ui/date-picker
+ *= require jquery_ujs
+ *= require bootstrap-sprockets
+ * require turbolinks
+ *= require_tree . 
+ 
