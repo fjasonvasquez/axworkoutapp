@@ -8,5 +8,5 @@ class Execercise < ApplicationRecord
 	validates :workout_details, presence: true
 	validates :activity_date, presence: true 
 
-end
+  end
 end
