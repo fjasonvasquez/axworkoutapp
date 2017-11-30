@@ -33,7 +33,7 @@ gem 'devise', '~>4.2.0'
 gem 'jquery-ui-rails', '5.0.5'
 gem 'd3-rails', '4.1.0'
 gem 'railties', '~> 5.0'
-gem 'rack', '~>2.0.3'
+gem 'rack', '~> 2.0', '>= 2.0.3'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
