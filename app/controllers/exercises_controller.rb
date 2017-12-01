@@ -18,8 +18,23 @@ class ExercisesController < ApplicationController
 			flash[:notice] = "Exercise has been created"
 			rediriect_to [current_user, @exercise]
 		else
-			flash.now[:alert] ="Exercise has not been created"
+			flash.now[:alert] = "Exercise has not been created"
 			render :new
+		end
+	end
+
+	def edit
+		@exercise = current_user.exercises.find params[:id]
+	end
+
+	def update
+		@exercise = current_user.exercises.find params[:id]
+		if @exercise.update(exercise_params)
+			flash[:notice] = "Exercise has been updated"
+			rediriect_to [current_user, @exercise]
+		else
+			flash[:alert] = "Exercise has not been updated"
+			render :edit
 		end
 	end
 
