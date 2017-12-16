@@ -42,4 +42,11 @@ class User < ApplicationRecord
   def current_friendship(friend)
   	friendships.where(friend: friend).first
   end
+
+  private
+
+  def create_chatroom
+    hyphenated_username = self.full_name.split.join('-')
+    Room.create(name: hyphenated_username, user_id: self.id)
+  end
 end
