@@ -4,6 +4,8 @@ class ExercisesController < ApplicationController
 	def index
 		@exercises = current_user.exercises
 		@friends = current_user.friends
+		set_current_room
+		@message = Message.new
 	end
 
 	def show
@@ -53,4 +55,14 @@ class ExercisesController < ApplicationController
 	def exercise_params
 		params.require(:exercise).permit(:duration_in_min, :workout, :workout_date, :user_id)
 	end
+
+	def set_current_room
+		if params[:roomID]
+			@room = Room.find_by(id: params[:roomID])
+		else
+			@room = current_user.room 
+		end
+		session[:current_room] = @room.id if @room 
+	end
+
 end  
